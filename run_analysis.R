@@ -92,7 +92,7 @@ newlabel<- Y_final[,-1] #creating a factor of labels from Y_final to
 total<- cbind(X_final, Sub_final, newlabel)
 
 total_mean<- total%>%
-  group_by(Subject, activitylabel)%>%
+  group_by(Subject, newlabel)%>%
   summarise_all(list(mean)) # grouping and making factors of subject, 
 #new label and hence finding out the mean of every element.
 
