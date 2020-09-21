@@ -5,7 +5,7 @@ This file has all information related to the tidying of the raw data, steps of i
 The repository Assignment-Getting has 4 files:
 1. total_mean.txt: The text file of the table created at the final step.
 2. Codebook.md: Containing the list of all variables used in our function.
-3.run_analysis.R: Containing the R script having the functions.
+3. run_analysis.R: Containing the R script having the functions.
 4. README.md: This file containing all the steps.
 
 
